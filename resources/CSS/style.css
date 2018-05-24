@@ -1,0 +1,171 @@
+html {
+  font-size: 18px;
+  color: white;
+}
+
+.header{
+  background-color: black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header{
+  background-color: black;
+  padding: 0.66rem;
+}
+
+header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+header span{
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-size: 1rem;
+  font-family: Helvetica ,sans-serif;
+}
+
+.bannermain {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.container section{
+  display: block;
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+  align-items: center;
+  padding:2rem 3rem;
+}
+
+.container h4{
+  padding-bottom: 0.25rem;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.container h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+nav{
+  background-color: firebrick;
+}
+
+.container ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+.products{
+  display: flex;
+  margin: 3rem 0 0 0;
+  justify-content: space-between;
+}
+
+.product{
+  width:30%;
+}
+
+.product-img{
+  display: flex;
+  padding: 2rem 0;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+}
+
+.product-img img{
+  max-width: 8em;
+}
+
+.description{
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+}
+
+.lh-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.info {
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.title{
+  background-color: black;
+  padding: 1rem  2rem;
+  display: block;
+}
+
+.num {
+color:black;
+}
+
+footer{
+  background-color: black;
+  text-align: left;
+  padding: 5rem;
+}
+
+@media only screen and (max-width: 1024px){
+  html{
+    font-size: 16px;
+  }
+  .container ul {
+    display: none;
+  }
+
+  .mobile-nav{
+    display: block;
+    text-align: center;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0 0 0;
+    justify-content: space-between;
+}
+  .product{
+    width: 47%;
+  }
+
+  #gl{
+    display: none;
+  }
+
+  .info{
+    width: 35%;
+  }
+}
